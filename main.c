@@ -13,10 +13,10 @@
 #include <io.h>
 #include <signal.h>
 
-#define     LED0                  BIT0
-#define     LED1                  BIT6
-#define     LED_DIR               P1DIR
-#define     LED_OUT               P1OUT
+#define     LED0                  BIT0   // 0x0001
+#define     LED1                  BIT6   // 0x0040
+#define     LED_DIR               P1DIR  // 0x0022
+#define     LED_OUT               P1OUT  // 0x0021
 
 void initLEDs(void) {
   LED_DIR |= LED0 + LED1;	//Set LED pins as outputs
