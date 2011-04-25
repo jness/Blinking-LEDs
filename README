@@ -1,0 +1,7 @@
+This is a very simple example code for blinking the
+MSP430's LED lights back and forth. 
+
+The examples provided by szczys in had_launchpad-blink 
+helped me in achieving my end goal.
+
+     https://github.com/Hack-a-Day/had_launchpad-blink
